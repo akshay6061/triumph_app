@@ -1,0 +1,29 @@
+name: triumph_app
+description: A Flutter app themed after the Triumph logo.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpeg
+    - assets/motto.jpeg
+    - assets/team1.jpeg
+    - assets/team2.jpeg
+    - assets/team3.jpeg
+    - assets/team4.jpeg
+    - assets/team5.png
+    - assets/team6.jpeg
+    - assets/team7.jpeg
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/lotto.jpeg"
